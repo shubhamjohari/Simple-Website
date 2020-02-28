@@ -1,0 +1,82 @@
+<html>
+<head>
+        <title> Online Tutorial</title>
+        <link href = "style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class = "head">
+            <table>
+                <tr>
+                    <td >
+                        <img class="image" src="3WE7P4DTRSWpuR5waHwMYK-650-80.jpg" >
+                    </td>
+                    <td class="marque">
+                        <marquee behavior="alternate" direction="right" scrollamount="12">
+                            Register Here!
+                        </marquee>
+                    </td>
+                </tr>
+            </table>
+        </div>
+   <div class = "main">
+       <div class = "nav">
+             <a class ="ahome" href = "./Website.html" style="float: left">HOME</a>
+            <a class = "acourse" href = "./courses.html">COURSES</a>
+            <a class = "alogin" href = "./Login.html" >LOGIN</a>
+            <a class = "acontact" href = "./contact.html">CONTACT</a>
+        </div>
+    </div>
+    <form action="" method="get">
+        <h1 id = "reghead"> Please Enter Your Details <hr></h1>
+        <div class="form1">
+        <label for="name">Full Name &nbsp;&nbsp;</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email"><br> Email id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <input id="email" name="email id" type ="email" required>
+        <label for="password"><br>Password&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <input id="password" name="pass" type="password" required>
+        <label for = "phone"><br> Mobile No.&nbsp;&nbsp;</label>
+        <input id ="phone" name="phone" required pattern="[0-9]{10}">
+        <br>Gender
+        <label for="male">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male</label>
+        <input id ="male" name= "gender" type="radio" answer ="MALE">
+        <label for = "female">&nbsp;&nbsp;Female</label>
+        <input id="female" name="gender" type="radio" answer="FEMALE">
+        
+        <label for="qual"><br>Qualification&nbsp;</label>
+        <select id ="qual" name="qualification" required>
+            <option value="10">10th</option>
+            <option value="12">12th</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Grad">Graduation</option>
+        </select>    
+        <label for ="age"><br>Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input id="age" name="age" type ="number" step="1" min="15" max="50">
+        <label for = "city"><br>City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input id="city" name="city" type="text" list="cities">
+            <datalist id="cities">
+                <option value="Delhi/Ncr"></option>
+                <option value="Noida"></option>
+                <option value="Bangalore"></option>
+                <option value="Kolkata"></option>
+                <option value="Hyderabad"></option>
+                <option value="Gurgaon"></option>
+                <option value="Lucknow"></option>
+                <option value="Ghaziabad"></option>
+            </datalist>
+        <label for="comp"><br>How good are you in computer<br></label>
+        <input id="comp" name="computer literacy" type="range" min="0" max="10" step="1">
+        <br>
+        </div><hr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="submit" type="submit" value="Done!">    
+            
+    </form>
+     <footer>
+         <hr><a class="madeinindia">Made with <span style="color: #c3073f">&#10084;</span> in India, &copy;Online Tutorial</a> 
+            <a class="want">Want to Join Us!<br>
+                Mail Us to : Shubhamjohari11@gmail.com</a>
+            
+        </footer>
+        
+</body>
+</html>
